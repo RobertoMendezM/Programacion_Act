@@ -8,10 +8,14 @@
  *        Construtctores, metodos de asignación, consulta, calculadores,
  *        misceláneos
  *
- *        Algoritmos de Ordenamientos, Máximo, Mínimo y Promedio.
+ *        Algoritmos de Ordenamientos,
+ *              BubbleSort
+ *              InsertionSort
+ *              SelectionSort
+ *        Máximo, Mínimo y Promedio.
  *
- *
- *  Dado su diagrama UML
+ *        Dado un diagrama UML generar la estructura
+ *        del programa
  *
  * Referencias:
  *  - Alsuwaiyel (2022). Algorithms Design Techniques and Analysis. 2nd edition
@@ -22,10 +26,11 @@
  *
  * Software:
  *    java 25
+ *    IntelliJ IDEA 2025.3.4
  *
  * @author Roberto Méndez Méndez / Deepseek
  * Fecha: 16/ Marzo/ 22
- * Editado: 9 Marzo 2026
+ * Editado: 19 Marzo 2026
  */
 
 public class Estructura_ManejoDatos {
@@ -53,6 +58,20 @@ public class Estructura_ManejoDatos {
 
     public void bubbleSort() {
         // Implementación de bubble Sort
+        int i = 0;
+        boolean sorted = false;
+        while( i < data.length && !sorted){
+            sorted = true;
+            for(int j = data.length-1; j >= i + 1; j--){
+                if(data[j] < data[j-1]){
+                    int aux = data[j];
+                    data[j] = data[j-1];
+                    data[j-1] = aux;
+                    sorted = false;
+                }
+            }
+            i++;
+        }
     }
 
     public void insertionSort() {
