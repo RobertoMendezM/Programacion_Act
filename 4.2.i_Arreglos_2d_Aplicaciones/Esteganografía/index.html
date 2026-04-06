@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Eteganografía</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/lovematrix" 
+              type="text/css"/> 
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Tangerine">
+        <script src="http://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js" >
+        </script>
+        <link rel="stylesheet" type="text/css" href="estiloEstenov1.css">
+        <script src="funcionEstenografia.js"></script>
+    </head>
+    <body>
+        <div class="titlediv">
+                ¡ Bienvenidos a la Esteganografía!
+            <p class="subtitle">  
+                Curso MCA 2 26-1
+            </p>
+        </div>
+        <p class="dcan" >
+            <canvas id="d1"  class="up">
+            </canvas>  
+            <canvas id="d2" class="up">
+            </canvas>
+        </p>  
+
+        <div class="c"> Imagen pantalla:
+            <input type="file" id="finput" accept="image/*" multiple 
+                   onchange="uploadF()">
+        </div>  
+        <div class="c">Imagen a ocultar:
+            <input type="file" id="hfinput" accept="image/*" 
+                   onchange="uploadHF()"> 
+        </div>
+        <div class="c">
+            <input type="button" value="Hide Message"  onclick="hideMessage()">
+            <input type="button" value="Get Message "  onclick="getMessage()">
+            <input type="button" value="Clear Canvas" onclick="clearCanvas()">
+        </div>
+        <p class="dcan">
+            <canvas id="hideS" class="up nwh">
+            </canvas>
+        </p>
+    </body>
+</html>
