@@ -18,8 +18,8 @@
  * Software: Java 25
  *
  * Editor: Roberto Méndez Méndez
- * @version 24/ May / 22
- * edited   23 Abril 2026
+ * Creación: 24/ May / 22
+ * Editado:  23 Abril 2026
  */
 
 import javax.swing.*;
