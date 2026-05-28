@@ -1,12 +1,17 @@
 /**
  * Programa que despliega una pantalla estilizada para buscar
  * y seleccionar un archivo
- *
+
  * Curso de Programación
- *
+
+ * Software
+ *      Java 25
+ *      IDE IntelliJ 2026.1.2
+
  * @author DeepSeek
  * Editor: Roberto Méndez Méndez
  * Creación:  19 May 2026
+ * Editado:   27 May 2026
  */
 package selectordearchivo;
 

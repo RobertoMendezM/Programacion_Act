@@ -1,14 +1,19 @@
 /**
  * Programa que despliega un "Explorador de archivos" (Finder)
  * para buscar y seleccionar un archivo
- *
+
  * Curso: Programación  2026-2
- *
+
  * Referencias:
  * - https://docs.oracle.com/en/java/javase/25/docs/api/java.desktop/javax/swing/UIManager.html
- *
+
+ * Software
+ *      Java 25
+ *      IDE IntelliJ 2026.1.2
+
  * @author Roberto Méndez Méndez
  * Creación:  19 May 2026
+ * Edición:   27 May 2026
  */
 package selectordearchivo;
 
